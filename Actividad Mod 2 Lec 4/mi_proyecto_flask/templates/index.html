@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block title %}Inicio - {{ data.title }}{% endblock %}
+
+{% block content %}
+<h2>{{ data.message }}</h2>
+<p>Esta es una página de ejemplo usando herencia de plantillas con Jinja2.</p>
+<ul>
+    <li>Flask</li>
+    <li>Jinja2</li>
+    <li>HTML dinámico</li>
+</ul>
+{% endblock %}
